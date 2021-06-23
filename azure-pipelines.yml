@@ -7,11 +7,12 @@
 #- master
 
 schedules:
-- cron: "0/30 0 0 0 0"
-  displayName: Daily midnight build
+- cron: "1 * * * *"
+  displayName: D
   branches:
     include:
     - main
+    - new-feature
 
 pool:
   vmImage: ubuntu-latest
