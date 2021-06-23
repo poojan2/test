@@ -12,7 +12,6 @@ schedules:
   branches:
     include:
     - main
-    - new-feature
 
 pool:
   vmImage: ubuntu-latest
