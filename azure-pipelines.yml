@@ -32,5 +32,5 @@ steps:
 #  displayName: 'Install dependencies'
 
 - script: |
-    python C:\Users\BAPS\PycharmProjects\test\main.py
+    python main.py
   displayName: 'pytest'
