@@ -22,7 +22,7 @@ strategy:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '$(python.version)'
+    versionSpec: '3.9.2'
   displayName: 'Use Python $(python.version)'
 
 #- script: |
@@ -31,6 +31,5 @@ steps:
 #  displayName: 'Install dependencies'
 
 - script: |
-    pip install pytest pytest-azurepipelines
-    pytest
+    python main.py
   displayName: 'pytest'
