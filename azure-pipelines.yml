@@ -7,7 +7,7 @@
 #- master
 
 schedules:
-- cron: "1 * * * *"
+- cron: "* * * * *"
   displayName: D
   branches:
     include:
