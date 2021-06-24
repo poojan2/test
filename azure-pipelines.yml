@@ -6,12 +6,12 @@
 trigger:
 - master
 
-#schedules:
-#- cron: "* * * * *"
-#  displayName: cron
-#  branches:
-#    include:
-#    - main
+schedules:
+- cron: "* * * * *"
+  displayName: cron
+  branches:
+    include:
+    - main
 
 pool:
   vmImage: ubuntu-latest
